@@ -1,0 +1,527 @@
+@font-face {
+  font-family: 'neuropol';
+  src: url("../fonts-text/neuropol/neuropol.eot");
+  src: url("../fonts-text/neuropol/neuropol.eot?#iefix") format('embedded-opentype'), url("../fonts-text/neuropol/neuropol.woff") format('woff'), url("../fonts-text/neuropol/neuropol.ttf") format('truetype'), url("../fonts-text/neuropol/neuropol.svg#eurostileregular") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  font-family: neuropol;
+  background: #fefefe;
+}
+.menu_bar {
+  display: none;
+}
+header {
+  width: 100%;
+}
+header nav {
+  background: #023859;
+  z-index: 1000;
+  max-width: 1050px;
+  width: 100%;
+  margin: 0px auto;
+  font-size: 16px;
+}
+header nav .social {
+  float: right;
+}
+header nav .social ul li {
+  margin: 3px 0;
+}
+header nav .social ul li:hover {
+  background: none;
+}
+header nav .social a {
+  padding: 5px;
+}
+header nav .social a span {
+  margin: 0;
+  font-size: 23px;
+}
+header nav .social ul li a:hover {
+  background: none;
+}
+header nav ul li a:hover {
+  background-color: none;
+}
+header nav ul {
+  list-style: none;
+}
+header nav ul .logo img {
+  width: 140px;
+}
+header nav ul .logo:hover {
+  background: none;
+}
+header nav ul li {
+  display: inline-block;
+  position: relative;
+}
+header nav ul li:hover {
+  background: #e6344a;
+}
+header nav ul li a {
+  color: #fff;
+  display: block;
+  text-decoration: none;
+  padding: 10px 12px;
+}
+header nav ul li a span {
+  margin-right: 10px;
+}
+header nav ul li:hover .children {
+  display: block;
+}
+header nav ul li .children {
+  display: none;
+  background: #011826;
+  position: absolute;
+  width: 130%;
+  z-index: 1000;
+}
+header nav ul li .children li {
+  display: block;
+  overflow: hidden;
+  border-bottom: 1px solid rgba(255,255,255,0.5);
+}
+header nav ul li .children li a {
+  display: block;
+}
+header nav ul li .children li a span {
+  float: left;
+  position: relative;
+  top: 3px;
+  margin-right: 10px;
+  margin-left: 0px;
+}
+header nav ul li .caret {
+  position: relative;
+  top: 3px;
+  margin-left: 10px;
+  margin-right: 0px;
+}
+.icon-arrow-down4 {
+  margin: 0;
+  font-size: 18px;
+  vertical-align: middle;
+}
+section {
+  max-width: 1050px;
+  width: 100%;
+  margin: 0px auto;
+}
+section ul {
+  overflow: hidden;
+}
+/*Inicia Slider*/
+.main {
+  width: 90%;
+  max-width: 800px;
+  margin: 20px auto;
+}
+.slides {
+  width: 100%;
+}
+.slides img {
+  width: 100%;
+}
+.slidesjs-pagination {
+  background: #424242;
+  list-style: none;
+  overflow: hidden;
+}
+.slidesjs-pagination li {
+  float: left;
+}
+.slidesjs-pagination li a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+}
+.slidesjs-pagination li a:hover {
+  background: #000;
+}
+.slides .active {
+  background: #000;
+}
+.slidesjs-navigation {
+  background: #000;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px;
+  float: right;
+}
+/*Termina Slider*/
+.menudown {
+  max-width: 1050px;
+  width: 100%;
+  margin: 0px auto;
+}
+.ca-menu {
+  margin-left: 55px;
+  padding: 10px;
+  max-width: 1050px;
+  width: 100%;
+}
+.ca-menu li {
+  width: 180px;
+  height: 220px;
+  overflow: hidden;
+  position: relative;
+  float: left;
+  background: #fff;
+  -webkit-box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+  -moz-box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+  box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+  margin-right: 4px;
+  -webkit-transition: all 300ms linear;
+  -moz-transition: all 300ms linear;
+  -o-transition: all 300ms linear;
+  -ms-transition: all 300ms linear;
+  transition: all 300ms linear;
+}
+.ca-menu li:last-child {
+  margin-right: 0px;
+}
+.ca-menu li a {
+  text-align: left;
+  width: 100%;
+  height: 100%;
+  display: block;
+  color: #333;
+  position: relative;
+}
+.ca-icon {
+  font-size: 50px;
+  color: #333;
+  text-shadow: 0px 0px 1px #333;
+  line-height: 150px;
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  top: 10px;
+  text-align: center;
+  -webkit-transition: all 400ms linear;
+  -moz-transition: all 400ms linear;
+  -o-transition: all 400ms linear;
+  -ms-transition: all 400ms linear;
+  transition: all 400ms linear;
+}
+.ca-icon#heart {
+  color: #f7002f;
+  text-shadow: 0px 0px 1px #f7002f;
+}
+.ca-content {
+  position: absolute;
+  left: 0px;
+  width: 100%;
+  height: 50%;
+  top: 40%;
+}
+.ca-main {
+  font-size: 22px;
+  opacity: 0.8;
+  text-align: center;
+  -webkit-transition: all 200ms linear;
+  -moz-transition: all 200ms linear;
+  -o-transition: all 200ms linear;
+  -ms-transition: all 200ms linear;
+  transition: all 200ms linear;
+}
+.ca-sub {
+  text-align: center;
+  font-size: 15px;
+  color: #666;
+  position: absolute;
+  bottom: 20px;
+  line-height: 15px;
+  width: 100%;
+  left: 0px;
+  opacity: 0.8;
+  -webkit-transition: all 200ms linear;
+  -moz-transition: all 200ms linear;
+  -o-transition: all 200ms linear;
+  -ms-transition: all 200ms linear;
+  transition: all 200ms linear;
+}
+.ca-menu li:hover {
+  background-color: #023859;
+  z-index: 999;
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.ca-menu li:hover .ca-icon {
+  color: #fff;
+  font-size: 70px;
+  opacity: 0.3;
+}
+.ca-menu li:hover .ca-icon#heart {
+  -webkit-animation: smallToBig 900ms alternate infinite ease;
+  -moz-animation: smallToBig 900ms alternate infinite ease;
+  -ms-animation: smallToBig 900ms alternate infinite ease;
+}
+.ca-menu li:hover .ca-main {
+  color: #fff;
+  -webkit-animation: smallToBig 300ms ease;
+  -moz-animation: smallToBig 300ms ease;
+  -ms-animation: smallToBig 300ms ease;
+}
+.ca-menu li:hover .ca-sub {
+  color: #fff;
+  -webkit-animation: moveFromBottom 500ms ease;
+  -moz-animation: moveFromBottom 500ms ease;
+  -ms-animation: moveFromBottom 500ms ease;
+}
+@-webkit-keyframes smallToBig {
+  from {
+    -webkit-transform: scale(0.1);
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+@-moz-keyframes smallToBig {
+  from {
+    -moz-transform: scale(0.1);
+  }
+  to {
+    -moz-transform: scale(1);
+  }
+}
+@-ms-keyframes smallToBig {
+  from {
+    -ms-transform: scale(0.1);
+  }
+  to {
+    -ms-transform: scale(1);
+  }
+}
+@-webkit-keyframes moveFromBottom {
+  from {
+    -webkit-transform: translateY(100%);
+  }
+  to {
+    -webkit-transform: translateY(0%);
+  }
+}
+@-moz-keyframes moveFromBottom {
+  from {
+    -moz-transform: translateY(100%);
+  }
+  to {
+    -moz-transform: translateY(0%);
+  }
+}
+@-ms-keyframes moveFromBottom {
+  from {
+    -ms-transform: translateY(100%);
+  }
+  to {
+    -ms-transform: translateY(0%);
+  }
+}
+/*Go heaven*/
+.goheaven {
+  background: #808080;
+  border-radius: 30%;
+  bottom: 10px;
+  color: #fff;
+  cursor: pointer;
+  display: none;
+  float: right;
+  font-size: 2em;
+  padding: 2px;
+  position: fixed;
+  right: 80px;
+}
+.goheaven:hover {
+  background: #f00;
+}
+/*Finish heaven*/
+/*Start Footer*/
+footer {
+  background: #023859;
+  bottom: 0;
+  box-shadow: 0 -5px 0 rgba(0,0,0,0.1);
+  color: #fff;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0.2em 0.5em;
+  position: relative;
+  top: 20px;
+  max-width: 1050px;
+  width: 100%;
+}
+footer .firma {
+  font-size: 0.8em;
+  left: 10px;
+  position: absolute;
+  vertical-align: middle;
+  text-align: center;
+}
+footer .firma a {
+  text-decoration: none;
+  color: #000;
+}
+footer .firma a img {
+  width: 30px;
+}
+footer .datos_contacto {
+  float: right;
+  font-size: 0.9em;
+  margin-right: 5px;
+  text-align: right;
+  text-shadow: 0.5px 0.5px 0.5px #000;
+  width: 500px;
+  max-width: 50%;
+}
+footer .datos_contacto address {
+  padding: 0.5em;
+}
+footer .datos_contacto .icon-phone3:after {
+  font-family: neuropol;
+  content: " (55) 85762887";
+}
+footer .datos_contacto .icon-mail3:after {
+  font-family: neuropol;
+  content: " contacto@redot.mx";
+}
+footer .datos_contacto .icon-office:after {
+  font-family: neuropol;
+  content: " Plaza Pabellón Ticoman, Calzada Ticomán #224 Lindavista Norte C.P.07300, Gustavo A. Madero D.F.";
+}
+footer .red_down {
+  bottom: 15px;
+  float: left;
+  position: absolute;
+  left: 60px;
+  width: 80px;
+}
+footer .red_down .rd {
+  font-size: 1em;
+  margin: 0 0 8px 0;
+  padding: 0;
+  text-align: center;
+}
+footer .red_down .rd li {
+  display: inline-block;
+  margin: 0;
+}
+footer .red_down .rd li a {
+  color: #fff;
+  display: inline-block;
+  padding: 0;
+  text-decoration: none;
+}
+/*End Footer*/
+/*Responsive*/
+@media screen and (max-width: 800px) {
+  body {
+    padding-top: 80px;
+  }
+  .menu_bar {
+    display: block;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: #e6344a;
+    z-index: 1000;
+  }
+  .menu_bar .bt-menu {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    overflow: hidden;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .menu_bar .bt-menu img {
+    margin-top: 5px;
+    margin-left: 15px;
+    width: 40px;
+  }
+  .menu_bar span {
+    float: right;
+    line-height: 1.6;
+    font-size: 30px;
+  }
+  header nav {
+    width: 85%;
+    height: calc(100% - 80px);
+    position: fixed;
+    top: calc(0% + 71px);
+    right: 100%;
+    margin: 0;
+    overflow: scroll;
+  }
+  header nav ul .logo {
+    display: none;
+  }
+  header nav ul li {
+    display: block;
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+  }
+  header nav ul li a {
+    display: block;
+  }
+  header nav ul li:hover .children {
+    display: none;
+  }
+  header nav ul li .children {
+    width: 100%;
+    position: relative;
+  }
+  header nav ul li .children li a {
+    margin-left: 20px;
+  }
+  header nav ul li .caret {
+    float: right;
+  }
+  .slidesjs-pagination a {
+    display: none;
+  }
+  .social {
+    display: none;
+  }
+  footer .datos_contacto {
+    float: left;
+    text-align: left;
+    max-width: 90%;
+  }
+  .goheaven {
+    right: 8px;
+    bottom: 30px;
+  }
+  .icon-arrow-down4 {
+    float: right;
+    font-size: 25px;
+  }
+  .menudown {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .menudown .ca-menu {
+    margin: 0 auto;
+    padding: 0px;
+    width: 450px;
+    max-width: 100%;
+  }
+  .menudown .ca-menu li {
+    margin: 0 auto;
+    width: 220px;
+  }
+}
