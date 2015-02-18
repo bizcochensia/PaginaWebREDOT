@@ -23,9 +23,9 @@
 		<nav>
 			<div class="social">
 				<ul>
-					<li><a href="#"><span class="icon-googleplus3"></span></a></li>
-					<li><a href="https://www.facebook.com/redot.mexico"><span class="icon-facebook3"></span></a></li>
-					<li><a href="#"><span class="icon-linkedin2"></span></a></li>
+					<li><a href="https://plus.google.com/u/0/100516414824535510686/" target="_blank"><span class="icon-googleplus3"></span></a></li>
+					<li><a href="https://www.facebook.com/redot.mexico" target="_blank"><span class="icon-facebook3" ></span></a></li>
+					<li><a href="https://www.linkedin.com/company/redot-servicios-tecnol%C3%B3gicos" target="_blank"><span class="icon-linkedin2"></span></a></li>
 				</ul>
 			</div>
 			<ul>
@@ -36,9 +36,9 @@
 					<a href="#"><span class="icon-pawn"></span>Áreas de Negocio <span class="icon-arrow-down4"></span></a>
 					<ul class="children">
 						<li><a href="#"><span class="icon-console"></span>Desarrollo a la Medida</a></li>
-						<li><a href="#"><span class="icon-mobile"></span>Desarrollo Móvil</a></li>
-						<li><a href="#"><span class="icon-thumbs-up"></span>Marketing Digital</a></li>
-						<li><a href="#"><span class="icon-tools"></span>Soporte y Mantenimiento</a></li>
+					
+						<li><a href="#"><span class="icon-thumbs-up"></span>Asignación de personal</a></li>
+						<li><a href="#"><span class="icon-tools"></span>Consultoria</a></li>
 					</ul>
 				</li>
 				<li><a href="#"><span class="icon-cogs"></span>Soluciones</a></li>

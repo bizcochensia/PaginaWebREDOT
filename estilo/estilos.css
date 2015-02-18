@@ -8,7 +8,7 @@ o
 
   font-family: 'lato';
   src: url("../fonts-text/lato/lato.eot");
-  src: url("../fonts-text/lato/lato.eot?#iefix") format('embedded-opentype'), url("../fonts-text/lato/lato.woff") format('woff'), url("../fonts-text/lato/lato.ttf") format('truetype'),url('lato-webfont.svg#latoregular') format('svg');
+  src: url("../fonts-text/lato/lato.eot?#iefix") format('embedded-opentype'), url("../fonts-text/lato/lato.woff") format('woff'), url("../fonts-text/lato/lato.ttf") format('truetype'), url('lato-light-webfont.svg#latolight') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -396,10 +396,11 @@ footer .datos_contacto {
   max-width: 50%;
 }
 footer .datos_contacto address {
-  padding: 0.5em;
+  padding: 0.25em;
 }
 footer .datos_contacto .icon-phone3:after {
   font-family: lato;
+  padding-right: 2em;
   content: " (55) 85762887";
 }
 footer .datos_contacto .icon-mail3:after {
@@ -408,7 +409,7 @@ footer .datos_contacto .icon-mail3:after {
 }
 footer .datos_contacto .icon-office:after {
   font-family: lato;
-  content: " Plaza Pabellón Ticoman, Calzada Ticomán #224 Lindavista Norte C.P.07300, Gustavo A. Madero D.F.";
+  content: " Calzada Ticomán #224 Lindavista Norte C.P.07300, Gustavo A. Madero D.F.";
 }
 footer .red_down {
   bottom: 15px;

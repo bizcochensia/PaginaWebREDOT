@@ -6,8 +6,6 @@
 		<div class="datos_contacto">
 			<address>
 				<span class="icon-phone3"></span>
-			</address>
-			<address>
 				<span class="icon-mail3"></span>
 			</address>
 			<address> 
