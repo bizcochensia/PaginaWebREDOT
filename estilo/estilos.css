@@ -1,4 +1,5 @@
-o 
+
+
 @font-face {
   font-family: 'neuropol';
   src: url("../fonts-text/neuropol/neuropol.eot");
@@ -20,13 +21,14 @@ o
   box-sizing: border-box;
 }
 body {
-  font-family: neuropol;
+  font-family: lato;
   background: #fefefe;
 }
 .menu_bar {
   display: none;
 }
 header {
+  font-family: neuropol;
   width: 100%;
 }
 header nav {
@@ -128,8 +130,34 @@ section {
 section ul {
   overflow: hidden;
 }
+/*configuracion de parrafos con contenido*/
+.contenido{
+  background-color: #F3F3F3;
+}
+.texto{
+  padding: 50px;
+  line-height: 1.5;
+}
+.titulo{
+  font-family: neuropol;
+  font-size: 30px;
+  padding-bottom: .5em;
+}
+.tablap td{
+ width: 50%;
+}
+.tabla{
+  width: 100%;
+}
+.tabla td{
+  padding-left: 30px;
+  width: 100%;
+  border: groove;
+  font-size: 20px;
+}
 /*Inicia Slider*/
 .main {
+  font-family: neuropol;
   width: 90%;
   max-width: 800px;
   margin: 20px auto;
@@ -170,6 +198,7 @@ section ul {
 }
 /*Termina Slider*/
 .menudown {
+  font-family: neuropol;
   max-width: 1050px;
   width: 100%;
   margin: 0px auto;
